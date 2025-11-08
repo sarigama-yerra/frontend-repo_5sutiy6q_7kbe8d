@@ -7,12 +7,12 @@ export default function HeroSplineCover() {
     <section className="relative w-full h-[80vh] md:h-[90vh] overflow-hidden">
       <div className="absolute inset-0">
         <Spline
-          scene="https://prod.spline.design/vi0ijCQQJTRFc8LA/scene.splinecode"
+          scene="https://prod.spline.design/zhZFnwyOYLgqlLWk/scene.splinecode"
           style={{ width: '100%', height: '100%' }}
         />
       </div>
 
-      {/* Soft gradient overlays to improve text readability */}
+      {/* Soft gradient overlays to improve text readability without blocking interaction */}
       <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-white/70 via-white/30 to-white/80" />
 
       <div className="relative z-10 container mx-auto px-4 h-full flex flex-col items-center justify-center text-center">
